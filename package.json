@@ -1,0 +1,43 @@
+{
+  "name": "dotenv-to-yaml",
+  "version": "0.1.0",
+  "description": "Convert your dotenv files to their YAML equivalent.",
+  "keywords": [
+    "dotenv",
+    "yaml",
+    "config",
+    "google-cloud"
+  ],
+  "homepage": "https://github.com/mathieu-bour/dotenv-to-yaml",
+  "bugs": {
+    "email": "mathieu.tin.bour@gmail.com",
+    "url": "https://github.com/mathieu-bour/dotenv-to-yaml/issues"
+  },
+  "license": "MIT",
+  "author": "Mathieu Bour <mathieu.tin.bour@gmail> (https://github.com/mathieu-bour)",
+  "files": [
+    "dist/**"
+  ],
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "bin": {
+    "dotenv-to-yaml": "dist/cli.js"
+  },
+  "repository": "github:mathieu-bour/dotenv-to-yaml",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "get-stdin": "^8.0.0",
+    "js-yaml": "^4.0.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
