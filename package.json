@@ -1,6 +1,6 @@
 {
   "name": "dotenv-to-yaml",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert your dotenv files to their YAML equivalent.",
   "keywords": [
     "dotenv",
