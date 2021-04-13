@@ -1,4 +1,4 @@
 /.idea
 /dist
 /node_modules
-/samples/*.yaml
+/tests/datasets/args/*.yaml

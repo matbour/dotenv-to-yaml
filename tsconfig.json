@@ -2,10 +2,10 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "outDir": "./dist",
-    "declaration": true,
+    "esModuleInterop": true,
     "strict": true,
-    "esModuleInterop": true
+    "outDir": "./dist",
+    "declaration": true
   },
   "include": [
     "src"
